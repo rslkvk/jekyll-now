@@ -177,6 +177,7 @@ img {
 
   img {
     border-radius: 5px;
+    max-height: 100%;
   }
 }
 
@@ -204,6 +205,8 @@ img {
   margin: -5px 0 0 0;
   color: $gray;
   font-size: 16px;
+  width: 60%;
+  text-align: justify;
 
   @include mobile {
     margin: 3px 0;
@@ -212,7 +215,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 1em; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
 
